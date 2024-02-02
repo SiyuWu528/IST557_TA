@@ -12,4 +12,5 @@ I defined a loss function for the task, with cross-entropy loss being my choice 
 Training,
 With the setup complete, I specified the number of epochs for training. I noted that increasing the number of epochs typically improved the accuracy on the training data, but I also emphasized the need to monitor for overfitting.
 Testing,
-The model I trained achieved an accuracy of 57% in predicting image classifications.
+The model I trained achieved an accuracy of 57% in predicting image classifications
+3: updating more models I have built through courses (data mining 1 and 2) and research collaborations.

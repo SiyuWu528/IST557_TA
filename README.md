@@ -1,18 +1,56 @@
-# Data Science
-a repository of my projects using machine learning, statistical modeling, and deep learning in data science.
-1. In the heart disease prediction project, I used Python's sklearn library to create classifiers that achieved an F1 score, indicating data prediction accuracy of over 85%. I applied various data preprocessing techniques, including feature and label transformations, feature selection, and data scaling. I experimented with different models, including logistic regression, SVM, and random forest, to identify the best-performing one.
-2. Image Classification Project:
-I used Python's PyTorch and a classical pipeline for image classification in this project.
-Data Preprocessing,
-I began by loading and converting the image data from raw vectors to tensors. I used data loaders and a composition of transformers, including horizontal flipping, normalization, and tensor conversion.
-Model Selection and Hyperparameters,
-I selected a convolutional neural network (CNN) model that was appropriate for my specific task. I found that increasing the number of output channels in the model architecture often improved performance. I also tuned hyperparameters such as learning rates, batch sizes, and model depth, highlighting the need for experimentation to find the optimal values.
-Loss Function and Optimization,
-I defined a loss function for the task, with cross-entropy loss being my choice for image classification. To optimize the model, I used the stochastic gradient descent (SGD) method, which is known for its fast convergence and adaptability to large datasets.
-Training,
-With the setup complete, I specified the number of epochs for training. I noted that increasing the number of epochs typically improved the accuracy on the training data, but I also emphasized the need to monitor for overfitting.
-Testing,
-The model I trained achieved an accuracy of 57% in predicting image classifications
+# Machine Learning, Statistical Modeling, and Deep Learning Notebooks
+
+## Description
+
+This repository is a curated collection of Jupyter notebooks designed to demonstrate and document the processes of machine learning, statistical modeling, and deep learning. The notebooks serve as a comprehensive guide that covers the theory and practical application of data science techniques in different scenarios. Each notebook is self-contained and focuses on a specific topic within the data science workflow, from data preparation and visualization to advanced model training and evaluation.
+
+Key features of this project:
+- **Modularity**: Each notebook is designed to be independent and focuses on a single aspect of data science.
+- **Transferability**: While the examples provided are self-contained, the methods and code snippets are designed to be easily transferable to other data science projects.
+- **Best Practices**: Emphasizes data science best practices, including code readability, data exploration, and effective visualization techniques.
+- **Reproducibility**: With detailed comments and explanations, other users can follow along and reproduce the results or adapt the workflows to their own datasets.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Structure](#structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+## Installation
+
+To set up a local development environment:
+
+1. Clone the repository:
+```
+git clone https://github.com/SiyuWu528/data_science.git
+```
+2. Navigate to the cloned repository:
+```
+cd data-science
+```
+3. It is recommended to create a virtual environment to keep the dependencies required by the project separate from your global Python environment:
+For virtualenv:
+```
+virtualenv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
+For conda environments:
+```
+conda create --name ds-notebooks python=3.8
+conda activate ds-notebooks
+```
+4. Start Jupyter Notebook or JupyterLab:
+ ```
+jupyter notebook
+ ```
+or
+ ```
+jupyter lab
+ ```
+  
 
 
-3: updating more models I have built through courses (data mining 1 and 2) and research collaborations.

@@ -15,7 +15,6 @@ Key features of this project:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Structure](#structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -51,6 +50,32 @@ or
  ```
 jupyter lab
  ```
-  
+## Usage
+The repository is organized into several notebooks, each focusing on a distinct topic within machine learning, statistical modeling, and deep learning, labeled as the last part in the name of each notebook.
 
+To begin, 
+1. launch Jupyter Notebook or JupyterLab.
+2. Navigate through the notebook/ directory.
+3. Open the notebook of your choice.
+4. Read through the explanations and run each cell sequentially to understand how the code works.
+5. Feel free to modify the code to experiment with different datasets or parameters.  
 
+## Structure
+Here is an overview of the project structure:
+
+data/: This folder contains datasets used across the notebooks.
+
+notebooks/: Jupyter notebooks are organized here, with a clear naming convention for ease of navigation.
+
+## License
+This project is released under the MIT License.
+
+## Contact
+If you have any questions or want to reach out regarding the project, please contact:
+
+Siyu Wu - Project Lead - SiyuWu528
+
+## Acknowledgements
+[Thomas Jefferson Lab](https://www.jlab.org/) and Penn State Berks [Physics](https://berks.psu.edu/directory/science-division/physics) Department provide data and support for generative models (GAN) under [Dr. Alex Prokudin](https://berks.psu.edu/person/prokudin-alexey)'s ongoing project at the intersection of nuclear physics and deep learning. 
+Most of the Machine Learning models were built with the support of the 'Datamining 1' class instructed by Dr. [Lin Lu](https://ist.psu.edu/directory/lxl5598) and used the data provided by her class. 
+Some Deep Learning Models and Statistical Models were built with the support of the 'Datamining 2' class instructed by Dr. [Aron Laska](https://ist.psu.edu/directory/aql5923) and used the data provided by his class.

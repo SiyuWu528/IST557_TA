@@ -1,4 +1,4 @@
-# Machine Learning, Statistical Modeling, and Deep Learning Notebooks
+# IST 557: Machine Learning, Statistical Modeling, and Deep Learning Notebooks
 
 ## Description
 
@@ -61,5 +61,4 @@ Siyu Wu -SiyuWu528
 
 ## Acknowledgements
 [Thomas Jefferson Lab](https://www.jlab.org/) and Penn State Berks [Physics](https://berks.psu.edu/directory/science-division/physics) Department provide data and support for generative models (GAN) under [Dr. Alex Prokudin](https://berks.psu.edu/person/prokudin-alexey)'s ongoing project at the intersection of nuclear physics and deep learning. 
-Most of the Machine Learning models were built for homework and projects of the 'Datamining 1' class instructed by Dr. [Lin Lu](https://ist.psu.edu/directory/lxl5598) and used the data provided by her class. 
-Some Deep Learning Models and Statistical Models were built for homework and projects of the 'Datamining 2' class instructed by Dr. [Aron Laska](https://ist.psu.edu/directory/aql5923) and used the data provided by his class.
+Most of the Machine Learning models were built for explain the concept in the 'IST 557 Datamining'

@@ -4,12 +4,6 @@
 
 This repository is a curated collection of Jupyter notebooks designed to demonstrate and document the Learning materials in IST 557, in specific, fundamental practices of machine learning, statistical modeling, and deep learning. Each notebook is self-contained and focuses on a specific topic within the data science workflow, from data preparation and visualization to advanced model training and evaluation.
 
-Key features of this project:
-- **Modularity**: Each notebook is designed to be independent and focuses on a single aspect of data science.
-- **Transferability**: While the examples provided are self-contained, the methods and code snippets are designed to be easily transferable to other data science projects.
-- **Best Practices**: Emphasizes data science best practices, including code readability, data exploration, and effective visualization techniques.
-- **Reproducibility**: With detailed comments and explanations, other users can follow along and reproduce the results or adapt the workflows to their own datasets.
-
 ## Table of Contents
 
 - [Installation](#installation)
